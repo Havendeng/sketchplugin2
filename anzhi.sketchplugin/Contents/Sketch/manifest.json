@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "anzhi.my-command-identifier",
+      "script": "__my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "anzhi",
+    "items": [
+      "anzhi.my-command-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "anzhi",
+  "identifier": "anzhi",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
